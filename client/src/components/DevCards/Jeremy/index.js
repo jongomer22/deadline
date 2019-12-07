@@ -23,7 +23,7 @@ function Jeremy() {
                         <li>Node</li>
                         <li>Passport</li>
                     </ul>
-                    <a href="https://www.linkedin.com/in/zac-warner-5a8079122/"><FaLinkedin className="aboutIcon" /></a>
+                    <a href="https://www.linkedin.com/in/jeremy-smith-ab31a953/"><FaLinkedin className="aboutIcon" /></a>
 
 
                 </div>
