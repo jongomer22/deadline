@@ -1,0 +1,55 @@
+@import '../variables.scss';
+
+$active-record:rgb(108, 211, 236);
+$cell-padding:5px;
+$record-odd:lightblue;
+$record-even:$color-neutral;
+$stroke-thin:1px;
+
+#title {
+    text-align: center;
+    font-family: arial, sans-serif;
+}
+  
+#module_progress {
+   text-align: center;
+   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+   border-collapse: collapse;
+   border: $stroke-width solid darkgray;
+   width: 100%;
+   th {
+    padding-top: $cell-padding;
+    padding-bottom: $cell-padding;
+    text-align: center;
+    background-color: steelblue;
+    color: white;
+   }
+   td, th {
+    border: $stroke-thin solid $color-neutral;
+   }
+   tr:nth-child(even) {
+    background-color: $record-even;
+    color: black;
+   }
+   tr:nth-child(odd) {
+    background-color: $record-odd;
+    color:black
+   }
+   tr:hover {
+    background-color: $active-record;
+   }
+}
+
+//Progress bar
+.chart {
+    rect:first-of-type {
+      color: white;
+      stroke: steelblue;
+      fill: white;
+    }
+    rect:nth-of-type(2) {
+      color: white;
+      stroke: transparent;
+      fill: steelblue;
+    }
+}

@@ -1,0 +1,36 @@
+@import './variables.scss';
+
+
+.form-holder{
+    background-color: rgba(87, 190, 190, 0.3);
+    width: 100%;
+    
+}
+
+.page-body{
+    .form-holder{
+        .container-fluid{
+            Form{
+                .form-row {
+                    Label{
+                        color: $color-form-label;
+                    }
+                }
+            }
+        }
+    }
+};
+
+.page-body{
+    .form-holder{
+        .container-fluid{
+            Form{
+                .row {
+                    Label{
+                        color: $color-form-label;
+                    }
+                }
+            }
+        }
+    }
+}
