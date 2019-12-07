@@ -1,0 +1,57 @@
+.landingJumbo{
+    background: url("../../images/keyboard.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+    margin-right: 0;
+}
+
+.profileCont{
+    width: 100%;
+    max-width: 100%;
+    z-index: 1;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 10%;
+}
+
+.profileHeader{
+    font-weight: 700;
+    padding-bottom: 1rem;
+    position: relative;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 5em;
+    letter-spacing: 4px;
+    overflow: hidden;
+    background: linear-gradient(90deg, #000, #fff, #000);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 4s linear infinite;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+  }
+
+  
+  
+@keyframes animate {
+    0% {
+      background-position: -500%;
+    }
+    100% {
+      background-position: 500%;
+    
+  }
+}
+
+.profileBtn{
+    width: 13rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+

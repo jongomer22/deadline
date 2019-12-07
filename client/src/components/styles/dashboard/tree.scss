@@ -1,0 +1,22 @@
+@import '../variables.scss';
+
+$color-nodecolor:black;
+$stroke-link-width:2px;
+
+.node {
+    circle {
+        fill: $color-neutral;
+        stroke: $color-nodecolor;
+        stroke-width: $stroke-width;
+    }
+    text {
+        font: $font-normal sans-serif;
+        font-weight: bolder;
+    }
+}
+
+.link {
+    fill: none;
+    stroke: $color-neutral;
+    stroke-width: $stroke-link-width;
+}
