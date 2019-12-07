@@ -23,7 +23,7 @@ function John() {
                         <li>Express</li>
                         <li>SQL/MongoDB</li>
                     </ul>
-                    <a href="https://www.linkedin.com/in/jeffery-saephan-b4aa1985/"><FaLinkedin className="aboutIcon" /></a>
+                    <a href="https://www.linkedin.com/in/jonathan-gomer-426446165/"><FaLinkedin className="aboutIcon" /></a>
                 </div>
             </div>
         </div>
