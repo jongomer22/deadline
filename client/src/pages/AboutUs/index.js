@@ -1,10 +1,11 @@
 import React, { Component } from "react";
 import { Col, Row, Container, Jumbotron } from 'reactstrap';
-import Adam from '../../components/DevCards/Adam';
-import Lucious from '../../components/DevCards/Lucious';
-import Meena from '../../components/DevCards/Meena';
-import Patrick from '../../components/DevCards/Patrick';
-import Zac from '../../components/DevCards/Zac';
+import Muey from '../../components/DevCards/Muey';
+import Manny from '../../components/DevCards/Manny';
+import Jeff from '../../components/DevCards/Jeff';
+import Aimee from '../../components/DevCards/Aimee';
+import Jeremy from '../../components/DevCards/Jeremy';
+import John from '../../components/DevCards/John';
 import Navbar from '../../components/Navbar';
 import "../../components/styles/variables.scss";
 import "../../components/styles/AboutUs/jumbotron.scss";
@@ -24,35 +25,38 @@ class AboutUs extends Component {
                 <Container className="container">
                 <Row>
                     <Col md={4}>
-                        <Adam />
+                        <Muey />
                 
                         
                     </Col>
                     <Col md={4}>
-                        <Lucious />
+                        <Manny />
 
                         
                     </Col>
                     <Col md={4}>
-                        <Meena />
+                        <Jeff />
 
                         
                     </Col>
                 </Row>
                 <br></br>
                 <Row>
-                    <Col md={1}/>
                     <Col md={4}>
-                        <Patrick />
+                        <Aimee />
 
                         
                     </Col>
-                    <Col md={1}/>
                     <Col md={4}>
-                        <Zac />
+                        <Jeremy />
+                    </Col>
+
+                    <Col md={4}>
+                        <John />
 
                         
                     </Col>
+                
                 </Row>
                 </Container>
             </div>
