@@ -104,11 +104,11 @@ class Login extends Component {
                                         <Row>
                                             <Col md="6">
                                                 <Label>Username:</Label>
-                                                <Input placeholder="your user name" name="userName" value={this.state.userName} onChange={this.handleInputChange}></Input>
+                                                <Input placeholder="username" name="userName" value={this.state.userName} onChange={this.handleInputChange}></Input>
                                             </Col>
                                             <Col md="6">
                                                 <Label>Password</Label>
-                                                <Input type="password" placeholder="your password" name="password" value={this.state.password} onChange={this.handleInputChange}></Input>
+                                                <Input type="password" placeholder="password" name="password" value={this.state.password} onChange={this.handleInputChange}></Input>
                                             </Col>
                                         </Row>
                                         <Row>
