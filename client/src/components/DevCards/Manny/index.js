@@ -13,8 +13,7 @@ function Manny() {
                 <div className="card-body">
                     <h3>Manuel Zavala</h3> 
                     <p className="card-text">I am a Junior Developer with experience in many stacks and libraries, including HTML5, CSS3, JavaScript, and ReactJS.
-                    I constantly look for ways to self-improve and level-up so, I enrolled in, completed and am a recent Graduate of the University of California Berkeley Extension Full-Stack program where I have received Professional training on both Frontend/Client-Side and Backend/Server-Side Technologies.
-                    I look forward to applying my new skillset to the Employer that wishes to introduce and add a new face to their workforce that will be on-time and motivated to improve every day.</p>
+                    I constantly look for ways to self-improve so I enrolled in, completed and am a recent Graduate of the University of California Berkeley Extension Full-Stack program where I have received Professional training on both Frontend and Backend Technologies.</p>
                     <h4>Skillset:</h4>
                     <ul>
                         <li>HTML5/CSS3</li>

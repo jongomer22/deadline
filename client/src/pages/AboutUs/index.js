@@ -20,7 +20,7 @@ class AboutUs extends Component {
                 <Navbar />
                 <br></br>
                 <Jumbotron id="aboutUsJumbo">
-                    <h3>The Dev Team</h3>
+                    <h1>The Dev Team</h1>
                 </Jumbotron>
                 <Container className="container">
                 <Row>

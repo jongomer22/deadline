@@ -1,10 +1,21 @@
 @import '../variables.scss';
 
 .dev-card{
-    background-color: rgba(87, 190, 190, 0.3);
+    background-color: rgba(56, 56, 56, 0.644);
     color: white;
+    text-align: center;
+    height: auto;
 }
 
-.aboutIcon{
-    background-color: white;
+.card-body ul{
+    list-style: none;
+    padding-left: 0;
+} 
+
+.dev-card a {
+    padding-right: 5px;
 }
+
+// .aboutIcon{
+//     background-color:;
+// }
