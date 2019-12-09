@@ -18,6 +18,11 @@
  
 } 
 
+.card-propss{
+  background-color: rgba(56, 56, 56, 0.644);
+  color: white;
+}
+
 #columnDetail{
   height: 3rem;
 }
