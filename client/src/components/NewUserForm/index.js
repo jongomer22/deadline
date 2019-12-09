@@ -30,7 +30,7 @@ export default class RegForm extends React.Component {
               <Row>
                 <Col md={3}>
                   <InputGroup>
-                    <InputGroupAddon addonType="prepend">@</InputGroupAddon>
+                    {/* <InputGroupAddon addonType="prepend">@</InputGroupAddon> */}
                     <Input placeholder="Username" name="userName" onChange={this.props.handleInputChange} value={this.props.details.userName} />
                     <FormFeedback>That name is already taken</FormFeedback>
                   </InputGroup>
@@ -49,8 +49,6 @@ export default class RegForm extends React.Component {
                     <Label for="examplePassword">Password</Label>
 
                     <AvField type="password" name="password" onChange={this.props.handleInputChange} placeholder="*******" value={this.props.details.password} required />
-
-                    {/* <Input type="password" name="password" id="examplePassword" onChange={this.props.handleInputChange} placeholder="password placeholder" value={this.props.details.password} /> */}
 
                   </FormGroup>
                 </Col>
