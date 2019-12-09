@@ -58,6 +58,7 @@ export default class Header extends React.Component {
             <div>
                 <Navbar color="light" light expand="md">
                     <NavbarBrand href="/">Deadline</NavbarBrand>
+                    
                     <NavbarToggler onClick={this.toggle} />
                     <Collapse isOpen={this.state.isOpen} navbar>
                         {isLoggedIn ? (

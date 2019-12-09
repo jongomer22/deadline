@@ -12,7 +12,7 @@ export default class Chat extends React.Component {
         this.state = {
             message: "",
             response: 0,
-            endpoint: "https://regulate.herokuapp.com/",
+            endpoint: "https://deadline-final.herokuapp.com/",
             chatHistory: [],
             projectId: "",
             name: "",

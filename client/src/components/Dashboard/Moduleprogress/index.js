@@ -92,20 +92,6 @@ class ProjPhase extends Component {
                     </table>
                 </CardBody>
             </Card>
-            // <div>
-            //     <h5>Table</h5>
-            //     <table id='module_progress' className="m-1">
-            //         <tbody>
-            //             <tr>
-            //                 <th>Module Name</th>
-            //                 <th>Module Owner</th>
-            //                 <th>Due Date</th>
-            //                 <th>Progress</th>
-            //             </tr>
-            //             {this.renderTableData()}
-            //         </tbody>
-            //     </table>
-            // </div>
         );
     }
 }

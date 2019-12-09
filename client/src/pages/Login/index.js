@@ -88,12 +88,12 @@ class Login extends Component {
                                         </Col>
                                         <Col md="6">
                                             <Label>Password</Label>
-                                            <Input type="password" placeholder="your password" name="password" value={this.state.password} onChange={this.handleInputChange}></Input>
+                                            <Input type="password" placeholder="Password" name="password" value={this.state.password} onChange={this.handleInputChange}></Input>
                                         </Col>
                                     </Row>
                                     <Row>
                                         <Col md="12">
-                                            <Button className="my-2" color="primary" onClick={this.handleFormSubmit}>Login!</Button>
+                                            <Button className="my-2" color="primary" onClick={this.handleFormSubmit}>Login</Button>
                                         </Col>
                                     </Row>
                                 </FormGroup>
@@ -104,16 +104,16 @@ class Login extends Component {
                                         <Row>
                                             <Col md="6">
                                                 <Label>Username:</Label>
-                                                <Input placeholder="your user name" name="userName" value={this.state.userName} onChange={this.handleInputChange}></Input>
+                                                <Input placeholder="Username" name="userName" value={this.state.userName} onChange={this.handleInputChange}></Input>
                                             </Col>
                                             <Col md="6">
-                                                <Label>Password</Label>
-                                                <Input type="password" placeholder="your password" name="password" value={this.state.password} onChange={this.handleInputChange}></Input>
+                                                <Label>Password:</Label>
+                                                <Input type="password" placeholder="Password" name="password" value={this.state.password} onChange={this.handleInputChange}></Input>
                                             </Col>
                                         </Row>
                                         <Row>
                                             <Col md="12">
-                                                <Button className="my-2" color="primary" type="submit" onClick={this.handleFormSubmit}>Login!</Button>
+                                                <Button className="my-2" color="primary" type="submit" onClick={this.handleFormSubmit}>Login</Button>
                                             </Col>
                                         </Row>
                                     </FormGroup>
@@ -123,7 +123,7 @@ class Login extends Component {
                     <Modal isOpen={this.state.modal} toggle={this.toggle}>
                         <ModalHeader toggle={this.toggle}>Incorrect Login</ModalHeader>
                         <ModalBody>
-                            <p>Invalid username / password</p>
+                            <p>Invalid Username / Password Combination</p>
                         </ModalBody>
                         <ModalFooter>
                             <Button color="secondary" onClick={this.toggle}>Close</Button>
