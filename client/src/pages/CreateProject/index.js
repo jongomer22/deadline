@@ -222,7 +222,7 @@ class Project extends Component {
                     }
                     <Card className="my-3 card-props">
                         <CardBody>
-                            <CardTitle><h5>Add Module</h5><hr /></CardTitle>
+                            <CardTitle><h5>Add Task</h5><hr /></CardTitle>
                             <AddModule data={this.state} handleInputChange={this.handleInputChange}
                                 handleCheckBox={this.handleCheckBox} handleAddModule={this.addModule} />
                         </CardBody>
