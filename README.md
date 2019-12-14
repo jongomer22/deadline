@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Deadline is essentially a project management application that provides users with an interface to collaborate and meet deadlines for projects and/or course work. You begin by creating an account with an email, username, and password. Next, you login and head to your profile where you will have options to create a new project. From there you can request other users to join you and assign tasks as well as due dates for those tasks.
 
 ## Available Scripts
 
